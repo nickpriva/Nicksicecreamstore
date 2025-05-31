@@ -1,0 +1,69 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+body {
+	font-size: 22px;
+	font-family: Arial;
+	background-color: papayawhip;
+	
+}
+
+h1, h2 {
+	color: peru;
+}
+
+p, label, th, td, button, li{
+	color: sandybrown;
+}
+input {
+	color: salmon;
+}
+
+p a , a{
+	color: sienna;
+}
+
+.rounded {
+	border-radius: 25px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.alert {
+	display: flex;
+	align-items: center;
+	padding: 1em;
+	box-sizing: border-box;
+	border-radius: 25px;
+	width: 100%;
+	height: 15%;
+	background-color: darksalmon;
+}
+
+.alert-icon {
+	display: flex;
+	align-items: center;
+}
+
+.alert-text {
+	margin-left: 1em;
+	
+}
+
+table {
+	border-style: solid;
+	border-radius: 15px;
+	border-color: tan;
+}
+
+td , th{
+	border: none;
+}
