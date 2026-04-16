@@ -16,6 +16,9 @@ body {
 h1, h2 {
 	color: peru;
 }
+h3 {
+	color: rgb(134, 21, 1);
+}
 
 p, label, th, td, button, li{
 	color: sandybrown;
@@ -26,6 +29,11 @@ input {
 
 p a , a{
 	color: sienna;
+}
+.nav{
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 
 .rounded {
@@ -66,4 +74,8 @@ table {
 
 td , th{
 	border: none;
+}
+
+hr {
+	border-color:peru;
 }
